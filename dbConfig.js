@@ -1,12 +1,11 @@
 const { Pool } = require("pg");
 
 const itemsPool = new Pool({
-  //   connectionString: process.env.DBConfigLink,
-  user: "temperature_sensor_user",
-  host: "dpg-cp1m48u3e1ms738p8c30-a.oregon-postgres.render.com",
-  password: "NQeEy7hlvQD03nZs5YTs2M1Mbj7wM5TA",
+  user: "temperature_sensor_database_user",
+  host: "dpg-cr6sse5ds78s73c46nlg-a.oregon-postgres.render.com",
+  password: "bbNui9w5PzhiCcxWYW6qc3FVkF75O7hH",
   port: "5432",
-  database: "temperature_sensor",
+  database: "temperature_sensor_database",
   ssl: {
     rejectUnauthorized: false,
   },
